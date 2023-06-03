@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<root version="3.3">
+  <properties>
+    <name>Feature: Record Source</name>
+    <version>0.1</version>
+    <loadorder>50</loadorder>
+    <description>
+      <text>Display the source a record came from</text>
+      <website></website>
+      <author>Joshua LeBlanc</author>
+    </description>
+    <ruleset>
+      Any
+    </ruleset>
+  </properties>
+
+  <announcement text="Record Source" font="emotefont" />
+
+  <base>
+    <!-- Scripts -->
+    <script name="RecordSource" file="scripts/record_source.lua" />
+  </base>
+</root>
